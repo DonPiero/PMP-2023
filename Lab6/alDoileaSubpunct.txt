@@ -1,0 +1,4 @@
+Efectul lui Y: Cu cât valoarea lui Y crește, distribuția a posteriori pentru n are tendința de a se îndrepta spre valori mai mari. Acest lucru se intampla, deoarece un număr mai mare de clienți care cumpără sugerează că numarul total de clienți ar putea fi si el mai mare.
+Efectul lui Theta: Valorile posibile pentru Theta sunt 0.2 și 0.5. Dacă Theta este mai mare, distribuția a posteriori pentru n tinde să se îndrepte spre valori mai mari. Acest lucru are loc, deoarece o probabilitate mai mare că un client va cumpăra indică faptul că mai mulți clienți ar putea cumpăra.
+
+În concluzie, datele observate privind numărul de clienți care cumpără (Y) și probabilitatea de cumpărare (Theta) au un impact direct asupra estimării numărului total de clienți (n). Distribuția a posteriori ne oferă o imagine probabilistică a acestui număr, luând în considerare atât datele observate, cât și informatiile a priori despre distribuția posibilă a numărului total de clienți.
