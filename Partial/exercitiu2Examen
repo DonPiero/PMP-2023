@@ -1,0 +1,11 @@
+import matplotlib.pyplot as plt
+
+media = 30
+deviatiaStandard = 3
+timpAsteptare = np.random.normal(media, deviatiaStandard, 100)
+
+plt.hist(timpAsteptare, bins=20, density=True, alpha=1, color='red') # histograma cu parametru alesi anterior aleator
+plt.title('Distribuția a 100 timpi medii:')
+plt.xlabel('Timp')
+plt.ylabel('Frecvență')
+plt.show()
